@@ -30,22 +30,22 @@ case $opcao in
         1)
                 echo Iniciando o serviço do Apache!
                 sleep $TIME
-                systemctl start httpd
+                systemctl start apache2.service
                 ;;
         2)
                 echo Parando o serviço do Apache!
                 sleep $TIME
-                systemctl stop httpd
+                systemctl stop apache2.service
                 ;;
         3)
                 echo Reiniciando o serviço do Apache
                 sleep $TIME
-                systemctl restart httpd
+                systemctl restart apache2.service
                 ;;
         4)
                 echo Mostrando  o status do Apache
                 sleep $TIME
-                systemctl status httpd
+                systemctl status apache2.service
                 ;;
         0)
                 echo Saindo do menu do Apache!
