@@ -8,7 +8,7 @@ Repositório desenvolvido para a **2ª Avaliação [Gerênciade Configuração]*
 - Testado em uma VM Ubuntu 20.
 
 
-# Atualização Branch 2.0
+# Atualização na Branch 2.0
 
 Notei que o script não funcionou na VM com o Sistema Operacional CentOS e aí notei que a sintaxe era diferente, então troquei o "**systemctl**" pelo "**service**" e troquei o nome do serviço de "**apache2.service** para "**httpd**".
 
